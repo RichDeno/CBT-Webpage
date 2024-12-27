@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Examination Portal</title>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet"/>
+
+    <!-- ICON -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="background">
+    <div class="exam-container">
+        <div class="exam-heading">
+            <h1>Online Examination Portal</h1>
+            <div id="timer-container" class="timer-wrapper">
+                <div class="time-block">
+                    <span id="minutes" class="time-value">00</span>
+                    <span class="time-label">MIN</span>
+                </div>
+                <div class="time-block">
+                    <span id="seconds" class="time-value">00</span>
+                    <span class="time-label">SEC</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- INSTRUCTION SECTION -->
+        <div id="instruction">
+            <p>Please read the following instructions carefully:</p>
+
+            <ul class="instruction-items">
+                <li>Answer all questions in the given time.</li>
+                <li>
+                    Read carefully through each question before answering.
+                </li>
+                <li>You have 40 minutes to answer all the question.</li>
+                <li>
+                    You can navigate back to previous questions using the
+                    "previous" button.
+                </li>
+                <li>
+                    If the time expires the system will automatically submit
+                    and calculate your score.
+                </li>
+            </ul>
+        </div>
+
+        <!-- START BUTTON -->
+        <button id="start-btn">Start Exam</button>
+
+        <div id="exam" style="display: none">
+            <div id="question-container" class="question"></div>
+            <div id="options-container" class="options"></div>
+
+            <!-- NAVIGATION BAR -->
+            <div id="navigation">
+                <div id="navigation-section">
+                    <div id="status-container">
+                        <div class="status-text">0% complete, let's get started!</div>
+                        <div id="progress-bar-container">
+                            <div id="status-bar"></div>
+                        </div>
+                    </div>
+                    <div id="button-container">
+                        <!-- PREVIOUS BUTTON -->
+                        <button id="prev-btn" class="nav-btn">PREVIOUS QUESTION</button>
+
+                        <!-- NEXT BUTTON -->
+                        <button id="next-btn" class="nav-btn">NEXT QUESTION</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RESULT SECTION -->
+        <div id="result" style="display: none">
+            <i class="fa fa-check-circle result-icon"></i>
+            <p class="result-text">You scored <span id="score">0</span> out of <span id="total">10<span>.</p>
+        </div>
+        
+        <!-- RESULT -->
+        <div id="result" style="display: none"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
