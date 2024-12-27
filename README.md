@@ -1,7 +1,6 @@
 CBT Website
 
-Overview
-The CBT Website is a collaborative project aimed at creating a user-friendly and efficient platform for conducting computer-based tests (CBT). 
+Overview: The CBT Website is a collaborative project aimed at creating a user-friendly and efficient platform for conducting computer-based tests (CBT). 
 The website allows administrators to create and manage tests, and users to participate in assessments with real-time scoring and feedback.
 
 1. User Features:
