@@ -9,10 +9,15 @@ The website allows administrators to create and manage tests, and users to parti
 - Receive instant feedback on completed tests.
 
 2. Technologies Used
-Frontend: HTML, CSS, JavaScript
-Version Control: Git and GitHub for collaboration.
+Frontend:
+- HTML
+- CSS
+- JavaScript
 
-3. Team Members
+Version Control:
+- Git and GitHub for collaboration.
+
+4. Team Members
 - Adeniji Ololade: HTML
 - Amua Desmond: Cascading Sheet Style
 - Saddiq Muhammad: JavaScript
