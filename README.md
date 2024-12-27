@@ -13,9 +13,9 @@ Frontend: HTML, CSS, JavaScript
 Version Control: Git and GitHub for collaboration.
 
 3. Team Members
-Adeniji Ololade: HTML
-Amua Desmond: Cascading Sheet Style
-Saddiq Muhammad: JavaScript
+- Adeniji Ololade: HTML
+- Amua Desmond: Cascading Sheet Style
+- Saddiq Muhammad: JavaScript
 
 4. License
 This project is licensed under the MIT License. See the LICENSE file for details.
